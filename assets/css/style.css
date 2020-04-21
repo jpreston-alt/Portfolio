@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/img4.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.hero {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 40px;
+}
+
+.navbar {
+    background: none;
+}
+
+.myname {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.mysub {
+    font-size: 34px;
+    color: rgb(97, 97, 97);
+    font-weight: 100;
+}
+
+.about-me {
+    font-weight: 200;
+}
+
+.main-container {
+    max-width: 700px;
+}
+
+hr {
+    background-color: hsl(171, 100%, 41%);
+    opacity: .15;
+}
+
+.footer {
+    background: none;
+}
