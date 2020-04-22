@@ -11,11 +11,8 @@
 
     <!-- Add Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
-
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
-    <!-- Our CSS -->
+    
+    <!-- My CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- Google Fonts -->
@@ -23,6 +20,8 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
 </head>
 
@@ -46,10 +45,10 @@
             </div> -->
     
             <div class="navbar-end">
-                <a class="navbar-item">Home</a>
-                <a class="navbar-item">Portfolio</a>
+                <a class="navbar-item" href="index.html">Home</a>
+                <a class="navbar-item" href="portfolio.html">Portfolio</a>
                 <a class="navbar-item">Resume</a>
-                <a class="navbar-item">Contact</a>
+                <a class="navbar-item" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -61,7 +60,7 @@
                     Joanna Preston
                 </h1>
                 <h2 class="subtitle mysub">
-                    Web Developer
+                    Front-End Web Developer
                 </h2>
     
                 <hr>
@@ -89,17 +88,23 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="menu">
+    <footer class="footer page-footer">
+        <div class="menu" id="contact">
             <div class="has-text-centered">
                 <img src="assets/images/mebw.png" style="width: 125px;">
                 <p class="menu-label">
                     Contact Me
                 </p>
                 <div class="">
-                    <a><i class="fab fa-linkedin icon"></i></a>
-                    <a><i class="fab fa-github icon"></i></a>
-                    <a><i class="fas fa-envelope icon"></i></a>
+                    <a href="https://www.linkedin.com/in/joanna-preston/" target="_blank">
+                        <i class="fab fa-linkedin icon"></i>
+                    </a>
+                    <a href="https://github.com/jpreston-alt" target="_blank">
+                        <i class="fab fa-github icon"></i>
+                    </a>
+                    <a href="mailto:joannappreston@gmail.com">
+                        <i class="fas fa-envelope icon"></i>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,15 +1,16 @@
+/************* ALL PAGES *************/
 body, html {
     height: 100%;
     margin: 0;
+    /* background-image: url("../images/yellow2.jpg"); */
     background-image: url("../images/img4.jpg");
 
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    /* font-family: 'Roboto', sans-serif !important;  */
 }
 
 .hero {
@@ -18,41 +19,39 @@ body {
     padding-bottom: 40px;
 }
 
-.contact-menu {
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 100%;
-    padding: 20px;
-}
-
-.navbar {
-    background: none;
-}
-
-.myname {
-    font-size: 64px;
-    font-weight: 900;
-}
-
-.mysub {
-    font-size: 34px;
-    color: rgb(97, 97, 97);
-    font-weight: 100;
-}
-
-.about-me {
-    font-weight: 200;
-}
-
-.main-container {
-    max-width: 700px;
-}
-
 hr {
     background-color: hsl(171, 100%, 41%);
     opacity: .15;
 }
 
-.footer {
+.main-container {
+    max-width: 800px;
+}
+
+a:hover, .icon:hover{
+    color: hsl(171, 100%, 41%) !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: none;
+}
+
+.navbar-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+/* FOOTER */
+.contact-menu {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    height: 100%;
+    padding: 20px;
+}
+
+.page-footer {
+    padding-bottom: 15px !important;
     background: none;
 }
 
@@ -62,7 +61,96 @@ hr {
     margin: 9px;
 }
 
-a:hover, .icon:hover{
-    color: hsl(171, 100%, 41%) !important;
 
+
+/************* ABOUT ME PAGE *************/
+.myname {
+    font-size: 64px;
+    font-weight: 900;
 }
+
+.mysub {
+    font-size: 26px;
+    color: rgb(97, 97, 97);
+    font-weight: 100;
+}
+
+.about-me {
+    font-weight: 200;
+}
+
+
+
+/************* PORTFOLIO PAGE *************/
+    .pic-container {
+        position: relative;
+    }
+
+    .portfolio-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: #e77c7c */
+        /* background-color: #114b5f; */
+        background-color: #236969;
+    }
+
+    .pic-container:hover .overlay {
+        opacity: .85;
+    }
+
+    .caption {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        height: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .project-title {
+        margin-bottom: 35px !important;
+        font-weight: 800;
+    }
+
+    .caption-btn {
+        background-color: #236969;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        /* font-weight: 500; */
+    }
+
+    .caption-btn:hover {
+        border: none;
+        color: white;
+        /* background-color: #88d498!important; */
+        /* background-color: hsl(171, 100%, 41%); */
+        background-color: #e77c7c;
+        /* background-color: #74f6a7 !important; */
+    }
+
+    .project-description {
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 300;
+    }
+
+
+
