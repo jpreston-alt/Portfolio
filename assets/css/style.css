@@ -4,7 +4,7 @@ body, html {
     background-image: url("../images/img4.jpg");
 
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
@@ -15,6 +15,13 @@ body {
 .hero {
     background-color: rgba(255, 255, 255, 0.5);
     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    padding: 20px;
 }
 
 .navbar {
@@ -47,4 +54,15 @@ hr {
 
 .footer {
     background: none;
+}
+
+.icon {
+    color: rgb(78, 76, 76);
+    font-size: 30px;
+    margin: 9px;
+}
+
+a:hover, .icon:hover{
+    color: hsl(171, 100%, 41%) !important;
+
 }
