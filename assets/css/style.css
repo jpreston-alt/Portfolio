@@ -2,8 +2,18 @@
 body, html {
     height: 100%;
     margin: 0;
-    /* background-image: url("../images/yellow2.jpg"); */
-    background-image: url("../images/img4.jpg");
+    background-image: url("../images/yellow2.jpg");
+    /* background-image: url("../images/img2.jpg"); */
+    /* background-image: url("../images/yellow.jpg"); */
+    /* background-image: url("../images/img4.jpg"); */
+    /* background-image: url("../images/img1.jpg"); */
+    /* background-image: url("../images/img3.jpg");  */
+    /* background-image: url("../images/yellowdes.jpg"); */
+
+    /* background-image: url("../images/ombre.jpg"); */
+    background-image: url("../images/yellow2.jpg");
+    
+
 
     background-position: center;
     background-size: cover;
@@ -14,22 +24,30 @@ body {
 }
 
 .hero {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: rgba(246, 247, 223, 0.685);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-container {
+    max-width: 900px;
+}
+.portfolio-container {
+    max-width: 1200px;
 }
 
 hr {
     background-color: hsl(171, 100%, 41%);
     opacity: .15;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.main-container {
-    max-width: 800px;
-}
+
 
 a:hover, .icon:hover{
     color: hsl(171, 100%, 41%) !important;
+    /* background-color: rgba(246, 247, 223, 0.685) !important; */
 }
 
 /* NAVBAR */
@@ -38,9 +56,21 @@ a:hover, .icon:hover{
 }
 
 .navbar-item {
+    font-family: 'Roboto', sans-serif !important; 
     text-transform: uppercase;
     font-size: 14px;
-    /* font-weight: 500; */
+    font-weight: 300;
+    /* color: white; */
+}
+
+.menu-label {
+    color: rgb(78, 76, 76);
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-item:hover {
+    background-color: rgba(246, 247, 223, 0.685) !important;
 }
 
 /* FOOTER */
@@ -53,10 +83,12 @@ a:hover, .icon:hover{
 .page-footer {
     padding-bottom: 15px !important;
     background: none;
+    padding-top: 25px !important;
 }
 
 .icon {
     color: rgb(78, 76, 76);
+    /* color: white; */
     font-size: 30px;
     margin: 9px;
 }
@@ -65,18 +97,21 @@ a:hover, .icon:hover{
 
 /************* ABOUT ME PAGE *************/
 .myname {
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
+    color: rgb(66, 66, 66);
 }
 
 .mysub {
-    font-size: 26px;
+    font-size: 22px;
     color: rgb(97, 97, 97);
     font-weight: 100;
+    margin-bottom: 0px;
 }
 
 .about-me {
-    font-weight: 200;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif !important; 
 }
 
 
@@ -104,11 +139,16 @@ a:hover, .icon:hover{
         transition: .5s ease;
         /* background-color: #e77c7c */
         /* background-color: #114b5f; */
-        background-color: #236969;
+        /* background-color: hsl(171, 100%, 41%); */
+        /* background-color: #a38e99; */
+        /* background-color: #92898a; */
+        background-color: #583c3f;
+
+        /* background-color: #236969; */
     }
 
     .pic-container:hover .overlay {
-        opacity: .85;
+        opacity: .9;
     }
 
     .caption {
@@ -118,7 +158,7 @@ a:hover, .icon:hover{
         top: 50%;
         left: 50%;
         width: 90%;
-        height: 70%;
+        height: 90%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -131,7 +171,7 @@ a:hover, .icon:hover{
     }
 
     .caption-btn {
-        background-color: #236969;
+        background-color: #583c3f;
         color: white;
         text-transform: uppercase;
         font-size: 14px;
@@ -143,14 +183,19 @@ a:hover, .icon:hover{
         color: white;
         /* background-color: #88d498!important; */
         /* background-color: hsl(171, 100%, 41%); */
-        background-color: #e77c7c;
+        /* background-color: #e77c7c; */
         /* background-color: #74f6a7 !important; */
+        background-color: hsl(171, 100%, 41%);
     }
 
     .project-description {
         font-family: 'Roboto', sans-serif !important;
         font-weight: 300;
     }
+
+    /* .card {
+        border: 1px solid hsla(171, 100%, 41%, 0.116);
+    } */
 
 
 
