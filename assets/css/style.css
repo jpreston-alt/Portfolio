@@ -23,14 +23,9 @@ body {
 
 .hero {
     background-color: rgba(253, 253, 253, 0.685);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
-/* .portfolio-hero {
-    padding-top: 65px;
-    padding-bottom: 65px;
-} */
 
 .main-container {
     max-width: 900px;
@@ -131,6 +126,7 @@ a:hover, .icon:hover{
         display: block;
         width: 100%;
         height: auto;
+        border-radius: 8px !important;
     }
 
     .overlay {
@@ -143,6 +139,7 @@ a:hover, .icon:hover{
         width: 100%;
         opacity: 0;
         transition: .5s ease;
+        border-radius: 8px !important;
 
         /* background-color: #583c3f; */
         background-color: #236969;
@@ -198,9 +195,10 @@ a:hover, .icon:hover{
         font-weight: 300;
     }
 
-    /* .card {
-        border: 1px solid hsla(171, 100%, 41%, 0.116);
-    } */
+    .card {
+        /* border: .5px solid black; */
+        border-radius: 8px !important;
+    }
 
 
 
