@@ -10,3 +10,18 @@ $(".navbar-burger").each(function () {
         $navbarMenuID.toggleClass("is-active");
     });
 });
+
+$(".overlay").on("click", function(event) { 
+    event.preventDefault();
+    console.log("clicked");
+
+    $(".overlay").css("opacity", "0");
+    $(this).css("opacity", ".95");
+});
+
+$(".overlay").on("focusout", function (event) {
+    event.preventDefault();
+    console.log("clicked");
+
+    $(this).css("opacity", "0");
+})
