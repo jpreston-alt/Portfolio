@@ -2,17 +2,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    /* background-image: url("../images/yellow2.jpg"); */
-    /* background-image: url("../images/img1.jpg"); */
-    /* background-image: url("../images/img3.jpg");  */
-    /* background-image: url("../images/yellowdes.jpg"); */
 
     background-image: url("../images/img4.jpg");
-    /* background-image: url("../images/ombre.jpg"); */
-    /* background-image: url("../images/yellow2.jpg"); */
-    
-
-
     background-position: center;
     background-size: cover;
 }
@@ -43,7 +34,6 @@ hr {
 
 a:hover, .icon:hover{
     color: hsl(171, 100%, 41%) !important;
-    /* background-color: rgba(246, 247, 223, 0.685) !important; */
 }
 
 /* NAVBAR */
@@ -56,12 +46,6 @@ a:hover, .icon:hover{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
-    /* color: white; */
-}
-
-.navbar-name {
-    /* font-weight: 500; */
-    /* font-size: 20px; */
 }
 
 .menu-label {
@@ -76,7 +60,6 @@ a:hover, .icon:hover{
 
 /* FOOTER */
 .contact-menu {
-    /* background-color: rgba(255, 255, 255, 0.5); */
     height: 100%;
     padding: 20px;
 }
@@ -140,10 +123,7 @@ a:hover, .icon:hover{
         opacity: 0;
         transition: .5s ease;
         border-radius: 8px !important;
-
-        /* background-color: #583c3f; */
         background-color: #236969;
-        /* background-color: rgb(241, 194, 106); */
     }
 
     .pic-container:hover .overlay {
@@ -163,7 +143,6 @@ a:hover, .icon:hover{
         transform: translate(-50%, -50%);
         text-align: center;
         padding: 30px 5px 30px 5px;
-        /* padding: 15px; */
     }
 
     .project-title {
@@ -176,17 +155,12 @@ a:hover, .icon:hover{
         color: white;
         text-transform: uppercase;
         font-size: 14px;
-        /* font-weight: 500; */
         border: 1px solid white;
     }
 
     .caption-btn:hover {
         border: none;
         color: white;
-        /* background-color: #88d498!important; */
-        /* background-color: hsl(171, 100%, 41%); */
-        /* background-color: #e77c7c; */
-        /* background-color: #74f6a7 !important; */
         background-color: hsl(171, 100%, 41%);
     }
 
@@ -196,7 +170,6 @@ a:hover, .icon:hover{
     }
 
     .card {
-        /* border: .5px solid black; */
         border-radius: 8px !important;
     }
 
