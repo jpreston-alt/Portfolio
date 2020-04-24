@@ -11,7 +11,9 @@ $(".navbar-burger").each(function () {
     });
 });
 
-$(".overlay").on("click", function(event) { 
+$(".overlay").on("click", "mouseover", function(event) { 
     $(".overlay").css("opacity", "0");
     $(this).css("opacity", ".95");
 });
+
+

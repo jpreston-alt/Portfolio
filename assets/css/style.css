@@ -68,6 +68,7 @@ hr {
     padding-bottom: 15px !important;
     background: none;
     padding-top: 25px !important;
+    /* margin-top: 20px; */
 }
 
 .icon {
@@ -80,10 +81,14 @@ hr {
 
 
 /************* ABOUT ME PAGE *************/
-.myname {
+.page-title {
     font-size: 60px;
     font-weight: 900;
     color: rgb(66, 66, 66);
+}
+
+.myname {
+    /* font-size: 34px; */
 }
 
 .mysub {
@@ -150,6 +155,7 @@ hr {
     .card-links {
         color: white;
         text-transform: uppercase;
+        font-size: 11px !important;
     }
 
     .card-footer-item:hover {
@@ -158,7 +164,28 @@ hr {
 
     .project-description {
         font-weight: 100;
+        font-size: 11px !important;
     }
+
+    .project-title {
+        font-size: 22px !important;
+    }
+
+@media only screen and (min-width: 400px) {
+    .project-description, .card-links {
+        font-size: 16px !important;
+    }
+
+    .project-title {
+        font-size: 32px !important;
+    }
+}
+
+/* @media only screen and (min-width: 514px) {
+    .myname {
+        font-size: 60px;
+    }
+} */
 
 
 
