@@ -8,7 +8,7 @@ body, html {
 }
 
 .hero {
-    background-color: rgba(253, 253, 253, 0.596);
+    background-color: rgba(253, 253, 253, 0.644);
     padding-top: 40px;
     padding-bottom: 40px;
     box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
@@ -34,7 +34,8 @@ hr {
 
 /* NAVBAR */
 .navbar {
-    background: none;
+    /* background: none; */
+    background: rgba(105, 131, 168, 0.041);
 }
 
 .navbar-item {
@@ -42,6 +43,7 @@ hr {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
+    /* color: white; */
 }
 
 .menu-label {
@@ -63,6 +65,7 @@ hr {
 .page-footer {
     padding-bottom: 15px !important;
     background: none;
+    background: rgba(105, 131, 168, 0.041);
     padding-top: 25px !important;
 }
 
@@ -121,7 +124,15 @@ hr {
 .overlay-card {
     height: 100%;
     width: 100%;
-    background-color: #446491;
+    /* background-color: #446491; */
+    background: rgb(105,131,168);
+    background: radial-gradient(circle, rgba(105,131,168,1) 0%, rgba(68,86,111,1) 100%);
+    /* background: rgb(133,161,200);
+    background: radial-gradient(circle, rgba(133,161,200,1) 0%, rgba(68,100,145,1) 100%); */
+    /* background: rgb(174,238,214);
+    background: radial-gradient(circle, rgba(174,238,214,1) 0%, rgba(68,100,145,1) 100%); */
+    /* background: rgb(174,238,214);
+    background: radial-gradient(circle, rgba(174,238,214,1) 0%, rgba(68,100,145,1) 75%); */
 }
 
 .card-footer {
@@ -157,7 +168,7 @@ hr {
     font-weight: 900;
 }
 
-.card-content {
+.project-card-content {
     padding-top: 8%;
 }
 
@@ -181,7 +192,7 @@ hr {
         font-size: 34px !important;
     }
 
-    .card-content {
+    .project-card-content {
         padding-top: 15%;
     }
 } 

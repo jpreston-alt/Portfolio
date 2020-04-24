@@ -95,7 +95,7 @@ $(document).ready(function () {
                         <img src=${card.imgURL} alt="Placeholder image" class="portfolio-img">
                         <div class="overlay">
                             <div class="card overlay-card">
-                                <div class="card-content has-text-centered">
+                                <div class="card-content project-card-content has-text-centered">
                                     <p class="title has-text-white project-title">
                                         ${card.title}
                                     </p>
