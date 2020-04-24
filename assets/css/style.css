@@ -2,20 +2,16 @@
 body, html {
     height: 100%;
     margin: 0;
-
     background-image: url("../images/img4.jpg");
     background-position: center;
     background-size: cover;
 }
 
-body {
-    /* font-family: 'Roboto', sans-serif !important;  */
-}
-
 .hero {
-    background-color: rgba(253, 253, 253, 0.685);
+    background-color: rgba(253, 253, 253, 0.596);
     padding-top: 40px;
     padding-bottom: 40px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .main-container {
@@ -68,12 +64,10 @@ hr {
     padding-bottom: 15px !important;
     background: none;
     padding-top: 25px !important;
-    /* margin-top: 20px; */
 }
 
 .icon {
     color: rgb(78, 76, 76);
-    /* color: white; */
     font-size: 30px;
     margin: 9px;
 }
@@ -85,10 +79,6 @@ hr {
     font-size: 60px;
     font-weight: 900;
     color: rgb(66, 66, 66);
-}
-
-.myname {
-    /* font-size: 34px; */
 }
 
 .mysub {
@@ -105,92 +95,96 @@ hr {
 
 
 
-/************* PORTFOLIO PAGE *************/
-    .pic-container {
-        position: relative;
-    }
+/************* PORTFOLIO CARDS *************/
+.pic-container {
+    position: relative;
+}
 
-    .portfolio-img {
-        display: block;
-        width: 100%;
-        height: auto;
-        border-radius: 8px !important;
-    }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    border-radius: 8px !important;
+    /* background-color: #236969; */
+}
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        border-radius: 8px !important;
-        background-color: #236969;
-    }
+.card, .portfolio-img {
+    border-radius: 8px !important;
+}
 
-    .pic-container:hover .overlay {
-        opacity: .95;
-    }
+.overlay-card {
+    height: 100%;
+    width: 100%;
+    background-color: #446491;
+}
 
-    .card {
-        border-radius: 8px !important;
-    }
+.card-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
 
-    .overlay-card {
-        height: 100%;
-        width: 100%;
-        /* background-color: #236969; */
-        background-color: hsl(171, 100%, 41%);
-    }
+.card-links {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 100;
+}
 
-    .card-footer {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
+.card-links:hover {
+    color: white !important;
+    font-weight: bold;
+}
 
-    .card-links {
-        color: white;
-        text-transform: uppercase;
-        font-size: 11px !important;
-    }
+.card-footer-item:hover {
+    background-color: #364f74;
+}
 
-    .card-footer-item:hover {
-        background-color: #236969;
-    }
+.project-description {
+    font-weight: 300;
+    font-size: 12px !important;
+}
 
+.project-title {
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900;
+}
+
+.card-content {
+    padding-top: 8%;
+}
+
+@media only screen and (min-width: 375px) {
     .project-description {
-        font-weight: 300;
-        font-size: 12px !important;
-    }
-
-    .project-title {
-        font-size: 22px !important;
-    }
-
-@media only screen and (min-width: 400px) {
-    .project-description {
-        font-size: 18px !important;
-        font-weight: 100;
-    }
-    .card-links {
         font-size: 16px !important;
+        font-weight: 300;
     }
 
     .project-title {
-        font-size: 32px !important;
-        /* font-weight: 900; */
+        font-size: 30px !important;
     }
 }
 
-/* @media only screen and (min-width: 514px) {
-    .myname {
-        font-size: 60px;
+@media only screen and (min-width: 900px) {
+    .project-description {
+        font-size: 20px !important;
     }
-} */
+
+    .project-title {
+        font-size: 34px !important;
+    }
+
+    .card-content {
+        padding-top: 15%;
+    }
+} 
 
 
 
