@@ -164,7 +164,7 @@ hr {
 
     .project-description {
         font-weight: 300;
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
 
     .project-title {
@@ -172,8 +172,8 @@ hr {
     }
 
 @media only screen and (min-width: 400px) {
-    .project-description, .card-links {
-        font-size: 16px !important;
+    .project-description {
+        font-size: 18px !important;
         font-weight: 100;
     }
     .card-links {
@@ -182,6 +182,7 @@ hr {
 
     .project-title {
         font-size: 32px !important;
+        /* font-weight: 900; */
     }
 }
 
