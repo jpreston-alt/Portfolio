@@ -31,7 +31,15 @@ $(document).ready(function () {
     });
 
     // event listener for modal
-    
+    $(".resume-link").on("click", function(event) {
+        event.preventDefault();
+        $(".resume-modal").addClass("is-active");
+    })
+
+    $(".resume-modal-close").on("click", function(event) {
+        event.preventDefault();
+        $(".resume-modal").removeClass("is-active");
+    });
 
     // function consturctor Project Card
     function ProjectCard(title, about, imgURL, siteURL, repoURL) {
