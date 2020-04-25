@@ -34,7 +34,6 @@ hr {
 
 /* NAVBAR */
 .navbar {
-    /* background: none; */
     background: rgba(105, 131, 168, 0.041);
 }
 
@@ -43,7 +42,6 @@ hr {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
-    /* color: white; */
 }
 
 .menu-label {

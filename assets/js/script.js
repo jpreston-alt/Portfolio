@@ -36,6 +36,7 @@ $(document).ready(function () {
         $(".resume-modal").addClass("is-active");
     })
 
+    // event listener closing resume modal
     $(".resume-modal-close").on("click", function(event) {
         event.preventDefault();
         $(".resume-modal").removeClass("is-active");
