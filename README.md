@@ -2,7 +2,7 @@
 ## About 
 I built this site to be a place where I could showcase my web development portfolio. I wanted a place where I could direct someone to find out a little more about me, see examples of my work, get access to my resume, LinkedIn profile, GitHub profile, and contact information. I wanted the user to be able to view my recent projects and access the deployed site and GitHub repo for those projects.
 
-I used the CSS framework Bulma to style my page and ensure that it was fully responsive. I wanted to keep the design clean and simple so that the pictures of my projects would stand out. I decided to generate the project cards using JavaScript so that I can more easily edit, add, and delete cards in the future. So the user doesn't have to leave my page to view my resume, I learned about using modals so that I could display my resume in a modal instad.
+I used the CSS framework Bulma to style my page and ensure that it was fully responsive. I wanted to keep the design clean and simple so that the pictures of my projects would stand out. I decided to generate the project cards using JavaScript so that I can more easily edit, add, and delete cards in the future. So the user doesn't have to navigate to a different page to view my resume and contact information, I learned to use modals to display this information on the page they are already on.
 
 This site is a work in progress, and as my skills develop, it will continue to develop too!
 

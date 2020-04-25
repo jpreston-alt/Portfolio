@@ -30,7 +30,7 @@ $(document).ready(function () {
         $(".overlay").css("opacity", "0");
     });
 
-    // event listener for modal
+    // event listener for resume modal
     $(".resume-link").on("click", function(event) {
         event.preventDefault();
         $(".resume-modal").addClass("is-active");
@@ -40,6 +40,18 @@ $(document).ready(function () {
     $(".resume-modal-close").on("click", function(event) {
         event.preventDefault();
         $(".resume-modal").removeClass("is-active");
+    });
+
+    // event listener for contact
+    $(".contact-link").on("click", function (event) {
+        event.preventDefault();
+        $(".contact-modal").addClass("is-active");
+    })
+
+    // event listener closing contact modal
+    $(".contact-modal-close").on("click", function (event) {
+        event.preventDefault();
+        $(".contact-modal").removeClass("is-active");
     });
 
     // function consturctor Project Card
