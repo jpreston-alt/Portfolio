@@ -114,7 +114,6 @@ hr {
     opacity: 0;
     transition: .8s ease;
     border-radius: 8px !important;
-    /* background-color: #236969; */
 }
 
 .card, .portfolio-img {
@@ -124,15 +123,8 @@ hr {
 .overlay-card {
     height: 100%;
     width: 100%;
-    /* background-color: #446491; */
     background: rgb(105,131,168);
     background: radial-gradient(circle, rgba(105,131,168,1) 0%, rgba(68,86,111,1) 100%);
-    /* background: rgb(133,161,200);
-    background: radial-gradient(circle, rgba(133,161,200,1) 0%, rgba(68,100,145,1) 100%); */
-    /* background: rgb(174,238,214);
-    background: radial-gradient(circle, rgba(174,238,214,1) 0%, rgba(68,100,145,1) 100%); */
-    /* background: rgb(174,238,214);
-    background: radial-gradient(circle, rgba(174,238,214,1) 0%, rgba(68,100,145,1) 75%); */
 }
 
 .card-footer {
@@ -154,7 +146,7 @@ hr {
 }
 
 .card-footer-item:hover {
-    background-color: #364f74;
+    background-color: rgb(105,131,168);
 }
 
 .project-description {
