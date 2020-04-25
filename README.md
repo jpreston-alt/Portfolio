@@ -1,6 +1,6 @@
 # Portfolio
 ## About 
-I built this site to be a place where I could showcase my web development portfolio. I wanted a place where I could direct someone to find out a little more about me, see examples of my work, get access to my resume, LinkedIn profile, GitHub profile, and email address. I wanted the user to be able to view my recent projects and access the deployed site and GitHub repo for those projects.
+I built this site to be a place where I could showcase my web development portfolio. I wanted a place where I could direct someone to find out a little more about me, see examples of my work, get access to my resume, LinkedIn profile, GitHub profile, and contact information. I wanted the user to be able to view my recent projects and access the deployed site and GitHub repo for those projects.
 
 I used the CSS Framework Bulma to style my page, and wanted to keep the design clean and simple. I decided to generate the project cards using JavaScript so that I can more easily edit, add, and delete cards in the future.
 
