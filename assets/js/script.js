@@ -96,7 +96,15 @@ $(document).ready(function () {
         "https://github.com/jpreston-alt/Code-Quiz"
     );
 
-    let projectCardsArr = [quarCard, weatherCard, plannerCard, quizCard];
+    const profileGenCard = new ProjectCard(
+        "Team Profile Generator",
+        "A command-line-interface application, built with Node.js, that allows the user to easily generate a team profile webpage, featuring summaries of their team members.",
+        "assets/images/team-profile.png",
+        "https://github.com/jpreston-alt/Team-Profile-Generator",
+        "https://github.com/jpreston-alt/Team-Profile-Generator"
+    );
+
+    let projectCardsArr = [quarCard, profileGenCard, weatherCard, plannerCard, quizCard];
 
     // function to render project cards to screen
     function renderCard(card) {
