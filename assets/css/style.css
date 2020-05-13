@@ -76,19 +76,19 @@ hr {
 
 
 /************* ABOUT ME PAGE *************/
+
 .page-title {
     font-size: 60px;
+    font-family: 'Roboto', Sans-serif;
     font-weight: 900;
     color: rgb(66, 66, 66);
-    text-align: center;
 }
 
 .mysub {
-    font-size: 22px;
-    color: rgb(97, 97, 97);
+    font-family: 'Roboto', Sans-serif;
     font-weight: 100;
+    color: rgb(66, 66, 66);
     margin-bottom: 0px;
-    text-align: center;
 }
 
 .about-me {
