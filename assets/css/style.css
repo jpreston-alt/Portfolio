@@ -127,8 +127,6 @@ hr {
     width: 100%;
     background: rgb(105,131,168);
     background: radial-gradient(circle, rgba(105,131,168,1) 0%, rgba(68,86,111,1) 100%);
-    /* background: rgb(41,70,81);
-    background: linear-gradient(360deg, rgba(41,70,81,1) 23%, rgba(28,39,43,1) 100%); */
 }
 
 .card-footer {
@@ -141,7 +139,7 @@ hr {
     color: white;
     text-transform: uppercase;
     font-size: 13px !important;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .card-links:hover {
@@ -155,13 +153,14 @@ hr {
 
 .project-description {
     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px !important;
 }
 
 .project-title {
     font-size: 22px !important;
-    font-family: 'Roboto', sans-serif !important;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
 }
 
 .project-card-content {
