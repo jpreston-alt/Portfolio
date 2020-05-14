@@ -104,7 +104,15 @@ $(document).ready(function () {
         "https://github.com/jpreston-alt/Team-Profile-Generator"
     );
 
-    let projectCardsArr = [quarCard, profileGenCard, weatherCard, plannerCard, quizCard];
+    const notepadCard = new ProjectCard(
+        "Notepad",
+        "Organize your thoughts with Notepad, a note-taking application build with Express.js. Notepad helps you keep track of everything you need to remember by allowing you to save, view, and delete important reminders and thoughts.",
+        "assets/images/notepad.png",
+        "https://jp-express-notepad.herokuapp.com/",
+        "https://github.com/jpreston-alt/Express-Note-Taker",
+    );
+
+    let projectCardsArr = [quarCard, notepadCard, profileGenCard, weatherCard, plannerCard, quizCard];
 
     // function to render project cards to screen
     function renderCard(card) {
