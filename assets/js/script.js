@@ -112,7 +112,15 @@ $(document).ready(function () {
         "https://github.com/jpreston-alt/Express-Note-Taker",
     );
 
-    let projectCardsArr = [quarCard, notepadCard, profileGenCard, weatherCard, plannerCard, quizCard];
+    const burgerCard = new ProjectCard(
+        "Eat-Da-Burger",
+        "A full-stack, restaurant application that allows the user to input, devour, rate, and delete tasty burgers from a MySQL database. Eat-Da-Burger utilizes the MVC design pattern, and is built using MySQL, Node, Express, Handlebars and a homemade ORM.",
+        "assets/images/burger2.png",
+        "https://jp-burger-logger.herokuapp.com/",
+        "https://github.com/jpreston-alt/Burger-Logger"
+    );
+
+    let projectCardsArr = [burgerCard, notepadCard, quarCard, profileGenCard, weatherCard, plannerCard, quizCard];
 
     // function to render project cards to screen
     function renderCard(card) {
